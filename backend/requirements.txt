@@ -4,6 +4,8 @@ sqlalchemy
 psycopg2-binary
 pydantic
 python-dotenv
-gunicorn
+passlib[bcrypt]
+python-jose[cryptography]
+alembic
 pytest
 httpx
