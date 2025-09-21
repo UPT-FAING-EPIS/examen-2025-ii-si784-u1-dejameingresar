@@ -1,0 +1,12 @@
+# Minimal example: RDS Postgres (not production ready)
+resource "aws_db_instance" "postgres" {
+  allocated_storage    = 20
+  engine               = "postgres"
+  engine_version       = "15"
+  instance_class       = "db.t3.micro"
+  name                 = "ecommerce"
+  username             = "postgres"
+  password             = var.db_password
+  skip_final_snapshot  = true
+  publicly_accessible  = false
+}

@@ -1,0 +1,1 @@
+Aplicación de ecommerce desarrollada con .NET Core + React.

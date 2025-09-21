@@ -1,0 +1,19 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": ["../Ecommerce.Api/**/*.csproj"]
+        }
+      ],
+      "dest": "obj/api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["**/*.md", "**/*.yml"]
+      }
+    ]
+  }
+}
